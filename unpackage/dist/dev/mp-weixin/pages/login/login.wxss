@@ -1,0 +1,40 @@
+.form.data-v-b237504c {
+  width: 100%;
+  padding: 28rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+}
+.form .form-item.data-v-b237504c {
+  width: 100%;
+  position: relative;
+  margin-top: 50rpx;
+}
+.form .form-item .formItem-title.data-v-b237504c {
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  font-weight: 500;
+}
+.form .form-item input.data-v-b237504c {
+  border-bottom: 1rpx solid #E5E5E5;
+  padding-left: 150rpx;
+  padding-bottom: 19rpx;
+}
+.form .form-item .code.data-v-b237504c {
+  position: absolute;
+  right: 0rpx;
+  top: 0rpx;
+  color: #1588FD;
+}
+.form .login-btn.data-v-b237504c {
+  width: 100%;
+  height: 88rpx;
+  background-color: #1588FD;
+  border-radius: 4rpx;
+  text-align: center;
+  line-height: 88rpx;
+  color: #FFFFFF;
+  font-size: 34rpx;
+  margin-top: 60rpx;
+}
+

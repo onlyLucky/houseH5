@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login",
+			"style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/info/info",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "资讯"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/index-detail/index-detail",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "租赁信息"
+			}
+        }
+    ],
+	"tabBar": {
+		"color":"#969799",
+		"selectedColor":"#1588FD",
+		"borderStyle":"white",
+		"fontSize":"18rpx",
+		"iconWidth": "40rpx",
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"/static/tabbar/index.png",
+				"selectedIconPath":"/static/tabbar/index_active.png"
+			},
+			{
+				"pagePath":"pages/info/info",
+				"text":"资讯",
+				"iconPath":"/static/tabbar/information.png",
+				"selectedIconPath":"/static/tabbar/information_activ.png"
+			},
+			{
+				"pagePath":"pages/message/message",
+				"text":"消息",
+				"iconPath":"/static/tabbar/message.png",
+				"selectedIconPath":"/static/tabbar/message_active.png"
+			},
+			{
+				"pagePath":"pages/user/user",
+				"text":"我的",
+				"iconPath":"/static/tabbar/user.png",
+				"selectedIconPath":"/static/tabbar/user_active.png"
+			}
+		]	
+	 },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
