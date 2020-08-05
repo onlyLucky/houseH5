@@ -1,0 +1,23 @@
+{
+  "name": "houseH5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlyLucky/houseH5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlyLucky/houseH5/issues"
+  },
+  "homepage": "https://github.com/onlyLucky/houseH5#readme",
+  "dependencies": {
+    "jweixin-module": "^1.6.0"
+  }
+}

@@ -1,4 +1,8 @@
 <script>
+	const jweixin = require('jweixin-module')  
+	jweixin.ready(function(){  
+	    // TODO  
+	});
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')

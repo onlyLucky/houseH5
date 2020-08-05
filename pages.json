@@ -42,6 +42,20 @@
 				"navigationBarTitleText": "租赁信息"
 			}
         }
+        ,{
+            "path" : "pages/back-reason/back-reason",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "退租原因"
+			}
+        }
+        ,{
+            "path" : "pages/map-to/map-to",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "导航指引"
+			}
+        }
     ],
 	"tabBar": {
 		"color":"#969799",
